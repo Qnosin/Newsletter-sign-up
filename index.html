@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <div class="container">
+      <!-- Image Wrapper -->
+      <section class="newsletter">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" />
+        <h1 class="newsletter__headline">Stay updated!</h1>
+        <p class="newsletter__desc">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <div class="checkmark-wrapper">
+          <div class="newsletter__checkmark"></div>
+          <p class="newsletter__checkmark-text">
+            Product discovery and building what matters
+          </p>
+          <div class="newsletter__checkmark"></div>
+          <p class="newsletter__checkmark-text">
+            Measuring to ensure updates are a success
+          </p>
+
+          <div class="newsletter__checkmark"></div>
+          <p class="newsletter__checkmark-text">And much more!</p>
+        </div>
+        <form class="newsletter__form">
+          <label class="newsletter__label" for="email">Email address</label>
+          <input
+            class="newsletter__email"
+            type="email"
+            name="email"
+            placeholder="email@company.com"
+          />
+
+          <button class="button" type="submit">
+            Subscribe to monthly newsletter
+          </button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+
+    Thanks for subscribing! A confirmation email has been sent to
+    ash@loremcompany.com. Please open it and click the button inside to confirm
+    your subscription. Dismiss message
+
+    <!-- Success message end -->
+  </body>
+</html>

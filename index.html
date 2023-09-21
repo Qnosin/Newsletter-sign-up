@@ -26,50 +26,61 @@
   <body>
     <!-- Sign-up form start -->
     <div class="container">
-      <!-- Image Wrapper -->
-      <section class="newsletter">
-        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" />
-        <h1 class="newsletter__headline">Stay updated!</h1>
-        <p class="newsletter__desc">
-          Join 60,000+ product managers receiving monthly updates on:
-        </p>
-        <div class="checkmark-wrapper">
-          <div class="newsletter__checkmark"></div>
-          <p class="newsletter__checkmark-text">
-            Product discovery and building what matters
-          </p>
-          <div class="newsletter__checkmark"></div>
-          <p class="newsletter__checkmark-text">
-            Measuring to ensure updates are a success
-          </p>
+      <div class="wrapper">
+        <img
+          class="image-1"
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt=""
+        />
 
-          <div class="newsletter__checkmark"></div>
-          <p class="newsletter__checkmark-text">And much more!</p>
-        </div>
-        <form class="newsletter__form">
-          <label class="newsletter__label" for="email">Email address</label>
-          <input
-            class="newsletter__email"
-            type="email"
-            name="email"
-            placeholder="email@company.com"
-          />
+        <img
+          class="image-2"
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt=""
+        />
 
-          <button class="button" type="submit">
-            Subscribe to monthly newsletter
-          </button>
-        </form>
-      </section>
+        <section class="newsletter">
+          <h1 class="newsletter__headline">Stay updated!</h1>
+          <p class="newsletter__desc">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <div class="checkmark-wrapper">
+            <div class="newsletter__checkmark-position">
+              <div class="newsletter__checkmark"></div>
+              <p class="newsletter__checkmark-text">
+                Product discovery and building what matters
+              </p>
+            </div>
+
+            <div class="newsletter__checkmark-position">
+              <div class="newsletter__checkmark"></div>
+              <p class="newsletter__checkmark-text">
+                Measuring to ensure updates are a success
+              </p>
+            </div>
+
+            <div class="newsletter__checkmark-position">
+              <div class="newsletter__checkmark"></div>
+              <p class="newsletter__checkmark-text">And much more!</p>
+            </div>
+          </div>
+          <form class="newsletter__form">
+            <div class="form-wrapper">
+              <label class="newsletter__label" for="email">Email address</label>
+              <input
+                class="newsletter__email"
+                type="email"
+                name="email"
+                placeholder="email@company.com"
+              />
+            </div>
+            <button class="button" type="submit">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </section>
+      </div>
     </div>
-
     <!-- Sign-up form end -->
-
-    <!-- Success message start -->
-
-    Thanks for subscribing! A confirmation email has been sent to
-    ash@loremcompany.com. Please open it and click the button inside to confirm
-    your subscription. Dismiss message
-
-    <!-- Success message end -->
   </body>
 </html>

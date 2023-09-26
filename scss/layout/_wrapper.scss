@@ -17,6 +17,11 @@
     width: 1000px;
     border-radius: 20px;
     padding: 20px 5px;
+
+    &-label {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   .wrapper--success {

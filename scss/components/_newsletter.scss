@@ -57,6 +57,14 @@
     margin-bottom: 0.5rem;
     display: block;
   }
+  &__label--error {
+    color: var(--primary-tomato);
+    display: none;
+  }
+  &__email--error::placeholder {
+    color: var(--primary-tomato);
+    z-index: 1;
+  }
   &__checkmark--confirmation {
     width: 60px;
     height: 60px;

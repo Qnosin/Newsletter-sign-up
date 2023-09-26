@@ -14,10 +14,19 @@
     cursor: pointer;
     transition: background 2s ease;
   }
+
+  &--confirmation {
+    padding: 15px 85px;
+    margin-top: 15rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .button {
     width: 100%;
+    &--confirmation {
+      padding: 15px 85px;
+      margin-top: auto;
+    }
   }
 }

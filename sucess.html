@@ -24,14 +24,20 @@
   <body>
     <div class="container">
       <div class="wrapper wrapper--success">
-        <div class="newsletter__checkmark"></div>
-        <h1>Thanks for subscribing!</h1>
-        <p>
-          A confirmation email has been sent to ash@loremcompany.com. Please
-          open it and click the button inside to confirm your subscription.
-          Dismiss message
-        </p>
-        <button class="button">Dismiss message</button>
+        <div class="confirmation">
+          <div
+            class="newsletter__checkmark newsletter__checkmark--confirmation"
+          ></div>
+          <h1 class="confirmation__headline">Thanks for subscribing!</h1>
+          <p class="confirmation__desc">
+            A confirmation email has been sent to<br />
+            <b>ash@loremcompany.com.</b> Please open it and click the button
+            inside to confirm your subscription.
+          </p>
+          <div class="btn-wrapper">
+            <button class="button button--confirmation">Dismiss message</button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
